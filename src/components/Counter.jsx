@@ -8,8 +8,7 @@ function Counter() {
     <div className='container'>
         <div className="circle">
             {counter}
-        </div>
-        {/* buttons */} 
+        </div> 
         <div className='btns'>
             <button onClick={() => setCount(counter != 0 ? counter - 1 : counter = 0)}>-</button>
             <button onClick={() => setCount(0) }>Restart</button>

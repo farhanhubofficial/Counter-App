@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 12px;
+}
+.circle {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background: #00befe;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  color: white;
+}
+.btns {
+  display: flex;
+  gap: 8px;
+}
+.btns button {
+  padding: 8px 12px;
+  background-color: #00befe;
+  border: 1px solid #00befe;
+  color: white;
+  border-radius: 6px;
+}
+.btns button:nth-child(1) {
+  background-color: red;
+  border-color: red;
+}
+.btns button:nth-child(3) {
+  background-color: green;
+  border-color: green;
+}
